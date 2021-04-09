@@ -1,6 +1,8 @@
-# terraform-module-multi-template
+# NVidia device kubernetes plugin
 
-Template repository for public terraform modules
+Terraform kubernetes NVidio plugin to run nodes with NVidia GPU
+
+This repo is an adaptation of the repository https://github.com/NVIDIA/k8s-device-plugin
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 Error: no lines in file
