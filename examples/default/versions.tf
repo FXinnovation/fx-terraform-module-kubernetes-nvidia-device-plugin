@@ -1,8 +1,16 @@
 terraform {
-  required_version = ">= 0.12"
+  required_version = ">= 0.13"
 
   required_providers {
-    kubernetes = "~> 1.11"
-    tls        = ">= 2"
+
+    random = {
+      source  = "hashicorp/random"
+      version = ">= 3.0"
+    }
+
+    kubernetes = {
+      source  = "hashicorp/kubernetes"
+      version = "1.10.0"
+    }
   }
 }
