@@ -10,7 +10,11 @@
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| terraform | >= 0.12 |
+| kubernetes | ~> 1.11 |
+| tls | >= 2 |
 
 ## Providers
 
