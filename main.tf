@@ -90,11 +90,11 @@ resource "kubernetes_daemonset" "this" {
           for_each = var.toleration
 
           content {
-            key                = lookup(each.key, "key", null)
-            effect             = lookup(each.value, "effect", null)
-            operator           = lookup(each.value, "operator", null)
-            toleration_seconds = lookup(each.value, "toleration_seconds", null)
-            value              = lookup(each.value, "value", null)
+            key                = lookup(toleration.value, "key", null)
+            effect             = lookup(toleration.value, "effect", null)
+            operator           = lookup(toleration.value, "operator", null)
+            toleration_seconds = lookup(toleration.value, "toleration_seconds", null)
+            value              = lookup(toleration.value, "value", null)
           }
         }
 
