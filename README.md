@@ -40,7 +40,7 @@ No modules.
 | <a name="input_daemonset_name"></a> [daemonset\_name](#input\_daemonset\_name) | Name of the deamonset | `string` | `"nvidia-driver"` | no |
 | <a name="input_image_extra_arguments"></a> [image\_extra\_arguments](#input\_image\_extra\_arguments) | image extra aguments | `list` | `[]` | no |
 | <a name="input_image_name"></a> [image\_name](#input\_image\_name) | image name | `string` | `"nvidia/k8s-device-plugin"` | no |
-| <a name="input_image_version"></a> [image\_version](#input\_image\_version) | Version of the nvidia image | `string` | `"1.11"` | no |
+| <a name="input_image_version"></a> [image\_version](#input\_image\_version) | Version of the nvidia image | `string` | `"1.18"` | no |
 | <a name="input_labels"></a> [labels](#input\_labels) | Map of labels to be merged with daemonset | `map` | `{}` | no |
 | <a name="input_namespace"></a> [namespace](#input\_namespace) | Kubernates namespace | `string` | `"kube-system"` | no |
 | <a name="input_node_selector"></a> [node\_selector](#input\_node\_selector) | Map of key value that will be used to select appropriate nodes | `map` | <pre>{<br>  "kubernetes.io/os": "linux"<br>}</pre> | no |

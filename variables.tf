@@ -1,6 +1,6 @@
 variable "image_version" {
   description = "Version of the nvidia image"
-  default     = "1.11"
+  default     = "1.18"
 }
 
 variable "daemonset_name" {
