@@ -2,9 +2,12 @@
 
 ## Usage
 
+To run this example, you need to execute:
+
 ```
-# terraform init
-# terraform apply
+$ terraform init
+$ terraform plan
+$ terraform apply
 ```
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
@@ -12,35 +15,36 @@
 
 | Name | Version |
 |------|---------|
-| terraform | >= 0.13 |
-| kubernetes | 1.10.0 |
-| random | >= 3.0 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.14 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | >= 3.0 |
+| <a name="requirement_kubernetes"></a> [kubernetes](#requirement\_kubernetes) | >= 2.0 |
+| <a name="requirement_random"></a> [random](#requirement\_random) | >= 3.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| random | >= 3.0 |
+| <a name="provider_random"></a> [random](#provider\_random) | >= 3.0 |
 
 ## Modules
 
 | Name | Source | Version |
 |------|--------|---------|
-| default | ../.. |  |
+| <a name="module_default"></a> [default](#module\_default) | ../.. | n/a |
 
 ## Resources
 
-| Name |
-|------|
-| [random_string](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/string) |
+| Name | Type |
+|------|------|
+| [random_string.this](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/string) | resource |
 
 ## Inputs
 
-No input.
+No inputs.
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| default | n/a |
+| <a name="output_default"></a> [default](#output\_default) | n/a |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
