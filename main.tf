@@ -9,6 +9,7 @@ locals {
   }
 }
 
+
 #####
 # Randoms
 #####
@@ -19,6 +20,7 @@ resource "random_string" "selector" {
   number  = false
   length  = 8
 }
+
 
 #####
 # Daemonset
